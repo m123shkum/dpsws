@@ -1,0 +1,87 @@
+/* Style For Suggestions */
+    
+/*
+ For creating side border like this
+ | item 1   |
+ | item 2   |
+ */
+ 
+ 
+ 
+.switch-menu-form-col-right #suggestions_holder{ top:50px !important; width:401px !important }
+ 
+.switch-menu-form-col-right.suggest_item{ width:401px !important}
+ 
+.suggestions .suggest_item{
+width:100% !important;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	background-color:#EEEEEE;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	position:relative;
+	z-index:100;
+	line-height:18px;
+	font-size:13px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+/*
+ For creating top border like this
+ ------------
+   item 1
+   ...
+ */
+.suggestions .suggest_item.first{
+	border-bottom:1px solid #ccc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:13px;
+}
+
+/*
+ For creating bottom border like this
+   ...
+   item 2
+  ------------
+ */
+.suggestions .suggest_item.last{
+	border-bottom:1px solid #ccc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:13px;
+}
+
+/*
+ For coloring the selected item
+ */
+.suggestions .suggest_item.selected, .suggestions .suggest_item.selected .description{
+	background-color:#999999;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+
+/*
+ Image thumbnail
+ */
+.suggestions .suggest_item .thumbnail{
+	background-color: transparent;
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin: 1px 2px 1px 2px;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+/*
+ Description
+ */
+.suggestions .suggest_item .description{
+	font-style: italic;
+	font-size: 11px;
+	color: #777;
+}
+.suggestion_title{
+margin-left:5px;
+}
